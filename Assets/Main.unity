@@ -974,8 +974,6 @@ PlayableDirector:
     value: {fileID: 875783871}
   - key: {fileID: 8549595702211554989, guid: 2feee00b3bb873e4cb2fd9080eccb0b1, type: 2}
     value: {fileID: 2126039930}
-  - key: {fileID: -287877629219792441, guid: 2feee00b3bb873e4cb2fd9080eccb0b1, type: 2}
-    value: {fileID: 2054543265}
   - key: {fileID: 4447398027402081068, guid: 2feee00b3bb873e4cb2fd9080eccb0b1, type: 2}
     value: {fileID: 972412526}
   - key: {fileID: -4391473140296708651, guid: 2feee00b3bb873e4cb2fd9080eccb0b1, type: 2}
@@ -1119,7 +1117,19 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 0
+        m_Name: Spawn Rate
+        m_Overridden: 1
+      - m_Value: -3
+        m_Name: Gravity1
+        m_Overridden: 1
+      - m_Value: 10
+        m_Name: Gravity2
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: Radius
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
