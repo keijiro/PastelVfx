@@ -6771,7 +6771,7 @@ MonoBehaviour:
   m_InputSlots:
   - {fileID: 8926484042661614866}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
 --- !u!114 &8926484042661614866
 MonoBehaviour:
   m_ObjectHideFlags: 0
