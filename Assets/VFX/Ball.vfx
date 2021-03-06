@@ -77,20 +77,6 @@ MonoBehaviour:
     - model: {fileID: 8926484042661615103}
       id: 0
       isStickyNote: 0
-  - title: Spawn Rate Animation
-    position:
-      serializedVersion: 2
-      x: -310
-      y: -416
-      width: 538
-      height: 181
-    contents:
-    - model: {fileID: 8926484042661615114}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661615108}
-      id: 0
-      isStickyNote: 0
   stickyNoteInfos: []
   categories: []
   uiBounds:
@@ -138,8 +124,6 @@ MonoBehaviour:
   - {fileID: 8926484042661615089}
   - {fileID: 8926484042661615094}
   - {fileID: 8926484042661615103}
-  - {fileID: 8926484042661615108}
-  - {fileID: 8926484042661615114}
   - {fileID: 8926484042661615123}
   - {fileID: 8926484042661615147}
   - {fileID: 8926484042661615149}
@@ -191,8 +175,6 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children:
-  - {fileID: 8926484042661614928}
-  - {fileID: 8926484042661615130}
   - {fileID: 8926484042661615133}
   m_UIPosition: {x: 284, y: -445}
   m_UICollapsed: 0
@@ -7721,7 +7703,7 @@ MonoBehaviour:
   m_InputSlots:
   - {fileID: 8926484042661615134}
   m_OutputSlots: []
-  m_Disabled: 1
+  m_Disabled: 0
 --- !u!114 &8926484042661615134
 MonoBehaviour:
   m_ObjectHideFlags: 0

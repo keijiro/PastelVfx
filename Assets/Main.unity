@@ -224,12 +224,15 @@ VisualEffect:
   m_Asset: {fileID: 8926484042661614526, guid: 0159e71c77c054e4eb6a6441d69d4a9d, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
-  m_StartSeed: 1655110411
+  m_StartSeed: 1347895596
   m_ResetSeedOnPlay: 0
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 0
+        m_Name: Spawn Rate
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
@@ -386,6 +389,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 875783870}
+  - component: {fileID: 875783871}
   m_Layer: 0
   m_Name: VFX
   m_TagString: Untagged
@@ -410,6 +414,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &875783871
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875783869}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1044603640
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,7 +878,7 @@ PlayableDirector:
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 2feee00b3bb873e4cb2fd9080eccb0b1, type: 2}
   m_InitialState: 1
-  m_WrapMode: 1
+  m_WrapMode: 0
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
@@ -865,6 +888,12 @@ PlayableDirector:
     value: {fileID: 2081746373}
   - key: {fileID: 2705876021246551309, guid: 2feee00b3bb873e4cb2fd9080eccb0b1, type: 2}
     value: {fileID: 1408971931}
+  - key: {fileID: -6767256165479110539, guid: 2feee00b3bb873e4cb2fd9080eccb0b1, type: 2}
+    value: {fileID: 875783871}
+  - key: {fileID: 8549595702211554989, guid: 2feee00b3bb873e4cb2fd9080eccb0b1, type: 2}
+    value: {fileID: 2126039930}
+  - key: {fileID: -287877629219792441, guid: 2feee00b3bb873e4cb2fd9080eccb0b1, type: 2}
+    value: {fileID: 2054543265}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1944025670
@@ -997,10 +1026,10 @@ VisualEffect:
   m_GameObject: {fileID: 2054543263}
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: 4cde4aa183e404a4d8e718005daaee98, type: 3}
-  m_InitialEventName: OnPlay
-  m_InitialEventNameOverriden: 0
-  m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
+  m_InitialEventName: NA
+  m_InitialEventNameOverriden: 1
+  m_StartSeed: 1936055584
+  m_ResetSeedOnPlay: 0
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
@@ -1062,7 +1091,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081746372}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 0.98490256}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1138,10 +1167,10 @@ VisualEffect:
   m_GameObject: {fileID: 2126039928}
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: e8a4bd8e84739e049b096e4db19211d8, type: 3}
-  m_InitialEventName: OnPlay
-  m_InitialEventNameOverriden: 0
-  m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
+  m_InitialEventName: NA
+  m_InitialEventNameOverriden: 1
+  m_StartSeed: 1411910538
+  m_ResetSeedOnPlay: 0
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
