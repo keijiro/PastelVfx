@@ -207,7 +207,7 @@ VisualEffect:
   m_Asset: {fileID: 8926484042661614526, guid: fa8d44d1edbc36249a95c2d0a6572526, type: 3}
   m_InitialEventName: NA
   m_InitialEventNameOverriden: 1
-  m_StartSeed: 1282069980
+  m_StartSeed: 839138274
   m_ResetSeedOnPlay: 0
   m_ResourceVersion: 1
   m_PropertySheet:
@@ -277,7 +277,7 @@ VFXRenderer:
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
-  m_MotionVectors: 0
+  m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
@@ -445,7 +445,7 @@ VisualEffect:
   m_Asset: {fileID: 8926484042661614526, guid: 0159e71c77c054e4eb6a6441d69d4a9d, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
-  m_StartSeed: 1347895596
+  m_StartSeed: 635384401
   m_ResetSeedOnPlay: 0
   m_ResourceVersion: 1
   m_PropertySheet:
@@ -781,7 +781,7 @@ MonoBehaviour:
   dithering: 1
   stopNaNs: 0
   taaSharpenStrength: 0.5
-  TAAQuality: 1
+  TAAQuality: 2
   taaHistorySharpening: 0.35
   taaAntiFlicker: 0.5
   taaMotionVectorRejection: 0
@@ -1136,7 +1136,7 @@ VFXRenderer:
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
-  m_MotionVectors: 0
+  m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
@@ -1599,7 +1599,7 @@ VFXRenderer:
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
-  m_MotionVectors: 0
+  m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0

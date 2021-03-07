@@ -853,7 +853,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 3
+  take: 5
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -952,10 +952,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 21.5
+    m_Start: 20.333333333333332
     m_ClipIn: 0
     m_Asset: {fileID: -7362462358936333410}
-    m_Duration: 7.156729166666668
+    m_Duration: 8.323395833333336
     m_TimeScale: 1
     m_ParentTrack: {fileID: -4720078101109060622}
     m_EaseInDuration: 0
@@ -2475,7 +2475,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: -7473197053893080855}

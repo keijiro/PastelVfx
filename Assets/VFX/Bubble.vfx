@@ -79,7 +79,7 @@ VisualEffectResource:
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
-      motionVectorGenerationMode: 0
+      motionVectorGenerationMode: 1
       shadowCastingMode: 0
       receiveShadows: 0
       reflectionProbeUsage: 0
@@ -569,7 +569,6 @@ MonoBehaviour:
   m_UISuperCollapsed: 0
   m_InputSlots:
   - {fileID: 8926484042661614570}
-  - {fileID: 0}
   m_OutputSlots: []
   m_Disabled: 0
   attribute: velocity
@@ -591,8 +590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
-  m_Children:
-  - {fileID: 0}
+  m_Children: []
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
@@ -1085,7 +1083,7 @@ MonoBehaviour:
   - link: []
   blendMode: 3
   useAlphaClipping: 0
-  generateMotionVector: 0
+  generateMotionVector: 1
   excludeFromTAA: 0
   m_SubOutputs:
   - {fileID: 8926484042661614590}
