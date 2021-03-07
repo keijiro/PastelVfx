@@ -445,7 +445,7 @@ VisualEffect:
   m_Asset: {fileID: 8926484042661614526, guid: 0159e71c77c054e4eb6a6441d69d4a9d, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
-  m_StartSeed: 1616629694
+  m_StartSeed: 556723
   m_ResetSeedOnPlay: 0
   m_ResourceVersion: 1
   m_PropertySheet:
@@ -894,8 +894,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.03
-  far clip plane: 500
+  near clip plane: 0.01
+  far clip plane: 360
   field of view: 80
   orthographic: 0
   orthographic size: 5
